@@ -58,7 +58,7 @@ repos:
       - id: mypy
         args:
             - --config-file=./.styleconfigs/mypy.ini
-        additional_dependencies: [ 'types-requests', 'types-redis' ]
+        additional_dependencies: ['types-requests', 'types-redis', 'types-aiofiles']
 
   - repo: https://github.com/pycqa/flake8
     rev: 6.0.0
